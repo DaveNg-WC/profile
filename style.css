@@ -1,0 +1,124 @@
+body {
+  background: url("images/pexels-nick-wehrli-3762284.jpg") fixed no-repeat top;
+  background-size:cover;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Spectral SC', serif;
+  font-weight: 100;
+  color: #2C3639;
+  margin-bottom: 0;
+}
+
+
+p{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: #2C3639;
+  margin: 0;
+}
+
+div.container{
+  width: 500px;
+  margin: 100px auto;
+}
+
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div.container{
+    width: 500px;
+    margin: 100px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div.container{
+    width: 300px;
+    margin: 100px auto;
+  }
+}
+
+div.white-card {
+  display: block;
+  background: #FCF8E8;
+  padding:  0px;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.45);
+  border-radius: 30px;
+}
+
+
+div.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+div.top-overlap{
+  margin-top: -100px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-center {
+  display:inline-block;
+  justify-content: center;
+}
+
+div.card-green{
+  width: 100%;
+  height: 200px;
+  border-radius: 30px 30px 0px 0px;
+  background-color: #3F4E4F;
+}
+
+img {
+  object-fit: contain ;
+  width: 100%;
+  height: auto;
+}
+
+.button-74 {
+  min-width: 120px;
+  margin: 20px;
+  background-color: #2C3639;
+  border: 2px solid #DCD7C9;
+  border-radius: 30px;
+  color: #DCD7C9;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 12px;
+  line-height: 40px;
+  text-align: center;
+
+}
+
+.button-74:hover {
+  background-color: #fff;
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+
+.list-inline > li{
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
